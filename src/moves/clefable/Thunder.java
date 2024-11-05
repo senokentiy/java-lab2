@@ -3,7 +3,7 @@ package moves.clefable;
 import ru.ifmo.se.pokemon.*;
 
 
-public class Thunder extends SpecialMove
+public final class Thunder extends SpecialMove
 {
     public Thunder (double pow, double acc)
     {

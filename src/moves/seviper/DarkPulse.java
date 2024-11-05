@@ -4,7 +4,7 @@ import main.Main;
 import ru.ifmo.se.pokemon.*;
 
 
-public class DarkPulse extends SpecialMove
+public final class DarkPulse extends SpecialMove
 {
     public DarkPulse (double pow, double acc)
     {

@@ -4,7 +4,7 @@ import moves.seviper.*;
 import ru.ifmo.se.pokemon.*;
 
 
-public class Seviper extends Pokemon
+public final class Seviper extends Pokemon
 {
     public Seviper (String name, int level)
     {

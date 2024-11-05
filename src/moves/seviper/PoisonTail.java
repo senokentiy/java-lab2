@@ -3,7 +3,7 @@ package moves.seviper;
 import ru.ifmo.se.pokemon.*;
 
 
-public class PoisonTail extends PhysicalMove
+public final class PoisonTail extends PhysicalMove
 {
     public PoisonTail(double pow, double acc)
     {

@@ -3,7 +3,7 @@ package moves.seviper;
 import ru.ifmo.se.pokemon.*;
 
 
-public class Swagger extends StatusMove
+public final class Swagger extends StatusMove
     {
     public Swagger(double pow, double acc)
     {

@@ -3,7 +3,7 @@ package moves.cleffa;
 import ru.ifmo.se.pokemon.*;
 
 
-public class Sing extends StatusMove
+public final class Sing extends StatusMove
 {
     public Sing (double pow, double acc)
     {

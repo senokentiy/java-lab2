@@ -3,7 +3,7 @@ package moves.clefairy;
 import ru.ifmo.se.pokemon.*;
 
 
-public class WakeUpSlap extends PhysicalMove
+public final class WakeUpSlap extends PhysicalMove
 {
     public WakeUpSlap (double pow, double acc)
     {

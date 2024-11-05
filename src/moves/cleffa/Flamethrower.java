@@ -2,7 +2,7 @@ package moves.cleffa;
 
 import ru.ifmo.se.pokemon.*;
 
-public class Flamethrower extends SpecialMove
+public final class Flamethrower extends SpecialMove
 {
     public Flamethrower (double pow, double acc)
     {

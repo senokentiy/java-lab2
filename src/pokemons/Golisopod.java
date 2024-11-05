@@ -3,7 +3,7 @@ package pokemons;
 import moves.golisopod.*;
 
 
-public class Golisopod extends Wimpod
+public final class Golisopod extends Wimpod
 {
     public Golisopod (String name, int level)
     {

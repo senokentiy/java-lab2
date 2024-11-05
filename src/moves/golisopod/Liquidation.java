@@ -3,7 +3,7 @@ package moves.golisopod;
 import ru.ifmo.se.pokemon.*;
 
 
-public class Liquidation extends PhysicalMove
+public final class Liquidation extends PhysicalMove
 {
     public Liquidation (double pow, double acc)
     {

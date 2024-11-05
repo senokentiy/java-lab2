@@ -3,7 +3,7 @@ package moves.wimpod;
 import ru.ifmo.se.pokemon.*;
 
 
-public class Facade extends PhysicalMove
+public final class Facade extends PhysicalMove
 {
     public Facade (double pow, double acc)
     {

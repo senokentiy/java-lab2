@@ -3,7 +3,7 @@ package moves.wimpod;
 import ru.ifmo.se.pokemon.*;
 
 
-public class DoubleTeam extends StatusMove
+public final class DoubleTeam extends StatusMove
 {
     public DoubleTeam (double pow, double acc)
     {

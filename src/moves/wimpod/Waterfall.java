@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.*;
 import main.Main;
 
 
-public class Waterfall extends PhysicalMove
+public final class Waterfall extends PhysicalMove
 {
     public Waterfall (double pow, double acc)
     {
