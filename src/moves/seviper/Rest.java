@@ -20,9 +20,8 @@ public final class Rest extends StatusMove
     }
 
     @Override
-    protected String describe ()
+    protected String describe()
     {
-        String[] pieces = this.getClass().toString().split("\\.");
-        return "uses " + pieces[pieces.length-1];
+        return "uses Rest";
     }
 }

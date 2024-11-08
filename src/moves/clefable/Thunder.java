@@ -19,8 +19,8 @@ public final class Thunder extends SpecialMove
     }
 
     @Override
-    protected String describe(){
-        String[] pieces = this.getClass().toString().split("\\.");
-        return "uses " + pieces[pieces.length-1];
+    protected String describe()
+    {
+        return "uses Thunder";
     }
 }

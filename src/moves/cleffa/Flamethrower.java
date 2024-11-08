@@ -2,6 +2,7 @@ package moves.cleffa;
 
 import ru.ifmo.se.pokemon.*;
 
+
 public final class Flamethrower extends SpecialMove
 {
     public Flamethrower (double pow, double acc)
@@ -18,9 +19,8 @@ public final class Flamethrower extends SpecialMove
     }
 
     @Override
-    protected String describe ()
+    protected String describe()
     {
-        String[] pieces = this.getClass().toString().split("\\.");
-        return "uses " + pieces[pieces.length-1];
+        return "uses Flamethrower";
     }
 }

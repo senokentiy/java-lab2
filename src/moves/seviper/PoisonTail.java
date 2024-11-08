@@ -27,7 +27,6 @@ public final class PoisonTail extends PhysicalMove
     @Override
     protected String describe()
     {
-        String[] pieces = this.getClass().toString().split("\\.");
-        return "uses " + pieces[pieces.length-1];
+        return "uses PoisonTail";
     }
 }
