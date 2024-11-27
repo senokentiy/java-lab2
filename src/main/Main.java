@@ -6,37 +6,32 @@ import pokemons.*;
 
 public class Main
 {
-    // https://pokemondb.net/pokedex/seviper
-    // https://pokemondb.net/pokedex/wimpod
-    // https://pokemondb.net/pokedex/golisopod
-    // https://pokemondb.net/pokedex/cleffa
-    // https://pokemondb.net/pokedex/clefairy
-    // https://pokemondb.net/pokedex/clefable
+    // https://pokemondb.net/pokedex/lunatone
+    // https://pokemondb.net/pokedex/skrelp
+    // https://pokemondb.net/pokedex/dragalge
+    // https://pokemondb.net/pokedex/bounsweet
+    // https://pokemondb.net/pokedex/steenee
+    // https://pokemondb.net/pokedex/tsareena
 
     public static void main (String[] args)
     {
         Battle b = new Battle ();
 
-        Seviper seviper = new Seviper("seviper", 1);
-        Wimpod wimpod = new Wimpod("wimpod", 1);
-        Golisopod golisopod = new Golisopod("golisopod", 1);
-        Cleffa cleffa = new Cleffa("cleffa", 1);
-        Clefairy clefairy = new Clefairy("clefairy", 1);
-        Clefable clefable = new Clefable("clefable", 1);
+        Lunatone lunatone = new Lunatone("lunatone", 1);
+        Skrelp skrelp = new Skrelp("skrelp", 1);
+        Dragalge dragalge = new Dragalge("dragalge", 1);
+        Bounsweet bounsweet = new Bounsweet("bounsweet", 1);
+        Steenee steenee = new Steenee("steenee", 1);
+        Tsareena tsareena = new Tsareena("tsareena", 1);
 
-        b.addAlly(seviper);
-        b.addAlly(wimpod);
-        b.addAlly(golisopod);
-        b.addFoe(cleffa);
-        b.addFoe(clefairy);
-        b.addFoe(clefable);
+        b.addAlly(lunatone);
+        b.addAlly(skrelp);
+        b.addAlly(dragalge);
+        b.addFoe(bounsweet);
+        b.addFoe(steenee);
+        b.addFoe(tsareena);
 
         b.go();
-    }
-
-    public static boolean chance (double num)
-    {
-        return num > Math.random();
     }
 }
 

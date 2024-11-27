@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/cain/IdeaProjects/java_lab2/src</OriginalElement>
+  <nodes>
+    <node x="282.0" y="337.5">moves.skrelp.AquaTail</node>
+    <node x="174.0" y="561.0">pokemons.Skrelp</node>
+    <node x="911.0" y="537.5">moves.lunatone.CosmicPower</node>
+    <node x="1347.0" y="701.0">pokemons.Steenee</node>
+    <node x="1051.0" y="677.5">moves.lunatone.Rest</node>
+    <node x="102.0" y="197.5">moves.skrelp.DragonPulse</node>
+    <node x="1358.0" y="221.0">pokemons.Bounsweet</node>
+    <node x="1124.5" y="921.0">pokemons.Tsareena</node>
+    <node x="373.0" y="1069.0">main.Main</node>
+    <node x="-78.0" y="337.5">moves.skrelp.Venoshock</node>
+    <node x="1190.0" y="337.5">moves.steenee.PlayNice</node>
+    <node x="-9.0" y="677.5">moves.dragalge.DracoMeteor</node>
+    <node x="1311.0" y="-2.5">moves.bounsweet.DoubleTeam</node>
+    <node x="524.0" y="921.0">pokemons.Lunatone</node>
+    <node x="490.0" y="-14.0">moves.lunatone.Swagger</node>
+    <node x="631.0" y="666.0">moves.lunatone.ChargeBeam</node>
+    <node x="126.0" y="921.0">pokemons.Dragalge</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pokemons.Bounsweet" target="moves.lunatone.Swagger" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="1455.0" y="168.0" />
+      <point x="1435.0" y="168.0" />
+      <point x="1435.0" y="148.0" />
+      <point x="615.0" y="148.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="main.Main" target="pokemons.Bounsweet" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="455.0" y="1048.0" />
+      <point x="1595.0" y="1048.0" />
+      <point x="1595.0" y="708.0" />
+      <point x="1575.0" y="708.0" />
+      <point x="1575.0" y="188.0" />
+      <point x="1455.0" y="188.0" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="pokemons.Lunatone" target="moves.lunatone.ChargeBeam" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="615.0" y="828.0" />
+      <point x="755.0" y="828.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="pokemons.Steenee" target="pokemons.Bounsweet" relationship="GENERALIZATION">
+      <point x="44.0" y="-27.0" />
+      <point x="1479.0" y="628.0" />
+      <point x="1455.0" y="628.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="main.Main" target="pokemons.Skrelp" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="455.0" y="1048.0" />
+      <point x="495.0" y="1048.0" />
+      <point x="495.0" y="528.0" />
+      <point x="255.0" y="528.0" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="pokemons.Dragalge" target="pokemons.Skrelp" relationship="GENERALIZATION">
+      <point x="44.5" y="-27.0" />
+      <point x="259.5" y="868.0" />
+      <point x="255.0" y="868.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="pokemons.Skrelp" target="moves.skrelp.AquaTail" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="255.0" y="468.0" />
+      <point x="435.0" y="468.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="pokemons.Skrelp" target="moves.skrelp.Venoshock" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="255.0" y="468.0" />
+      <point x="75.0" y="468.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="pokemons.Lunatone" target="moves.lunatone.Swagger" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="pokemons.Bounsweet" target="moves.bounsweet.DoubleTeam" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="1455.0" y="168.0" />
+      <point x="1435.0" y="168.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="pokemons.Lunatone" target="moves.lunatone.Rest" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="615.0" y="848.0" />
+      <point x="1175.0" y="848.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="main.Main" target="pokemons.Dragalge" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="455.0" y="888.0" />
+      <point x="170.5" y="888.0" />
+      <point x="-44.5" y="-27.0" />
+    </edge>
+    <edge source="pokemons.Lunatone" target="moves.lunatone.CosmicPower" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="615.0" y="828.0" />
+      <point x="1035.0" y="828.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="pokemons.Tsareena" target="pokemons.Steenee" relationship="GENERALIZATION">
+      <point x="45.25" y="-27.0" />
+      <point x="1260.25" y="888.0" />
+      <point x="1315.0" y="888.0" />
+      <point x="1315.0" y="668.0" />
+      <point x="1479.0" y="668.0" />
+      <point x="44.0" y="-27.0" />
+    </edge>
+    <edge source="pokemons.Tsareena" target="moves.lunatone.Rest" relationship="CREATE">
+      <point x="-45.25" y="-27.0" />
+      <point x="1169.75" y="868.0" />
+      <point x="1175.0" y="868.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="pokemons.Dragalge" target="moves.dragalge.DracoMeteor" relationship="CREATE">
+      <point x="-44.5" y="-27.0" />
+      <point x="170.5" y="868.0" />
+      <point x="115.0" y="868.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="main.Main" target="pokemons.Tsareena" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="455.0" y="1048.0" />
+      <point x="775.0" y="1048.0" />
+      <point x="775.0" y="888.0" />
+      <point x="1169.75" y="888.0" />
+      <point x="-45.25" y="-27.0" />
+    </edge>
+    <edge source="main.Main" target="pokemons.Steenee" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="455.0" y="1048.0" />
+      <point x="1555.0" y="1048.0" />
+      <point x="1555.0" y="648.0" />
+      <point x="1391.0" y="648.0" />
+      <point x="-44.0" y="-27.0" />
+    </edge>
+    <edge source="pokemons.Skrelp" target="moves.skrelp.DragonPulse" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="main.Main" target="pokemons.Lunatone" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="455.0" y="1048.0" />
+      <point x="735.0" y="1048.0" />
+      <point x="735.0" y="888.0" />
+      <point x="615.0" y="888.0" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="pokemons.Steenee" target="moves.steenee.PlayNice" relationship="CREATE">
+      <point x="-44.0" y="-27.0" />
+      <point x="1391.0" y="628.0" />
+      <point x="1315.0" y="628.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6003386960203217" showDependencies="true" x="768.5" y="576.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
